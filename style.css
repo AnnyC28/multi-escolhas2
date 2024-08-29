@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+AU+VIC:wght@100..400&family=Playwrite+ES:wght@100..400&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-weight: 400;
+
+}
+
+:root{
+    --violeta-russo: #231942ff;
+--ultra-violeta: #5e548eff;
+--violeta-africana: #9f86c0ff;
+--lilas: #be95c4ff;
+--preto-preto: rgb(0, 0, 0);
+--fonte-texto:"Playwrite AU VIC", cursive;
+--fonte-titulo:"Playwrite ES", cursive;
+}
+ body{
+    background-color: var(--violeta-russo);
+    color: var(--ultra-violeta);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    font-family: var(--fonte-texto);
+
+ }
+
+ .caixa-principal{
+    background-color: var(--violeta-africana);
+    width: 90%;
+    min-width: 600px;
+    text-align: center;
+    padding: 20px;
+
+ }
+ .titulo{
+    color: var(--preto-preto);
+    font-family: var(--fonte-titulo);
+
+ }
+
+button{
+   background-color: var(--violeta-russo);
+   color: var(--violeta-africana);
+   border: none;
+   border-radius: 15px;
+   padding: 15px;
+   transition: 0.3s;
+   margin: 10px auto;
+}
+
+button:hover{
+   background-color: var(--rosa-lavanda);
+
+}
